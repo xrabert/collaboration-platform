@@ -1,0 +1,43 @@
+dn: dc=pb,dc=gtja,dc=com
+objectclass: top
+objectclass: domain
+objectclass: extensibleObject
+dc: pb
+
+
+dn: ou=it,dc=pb,dc=gtja,dc=com
+objectclass: top
+objectclass: organizationalUnit
+ou: it
+
+dn: ou=staffs,dc=pb,dc=gtja,dc=com
+objectclass: top
+objectclass: organizationalUnit
+ou: staffs
+
+dn: uid=xut,ou=staffs,dc=pb,dc=gtja,dc=com
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+cn: Xu Tao
+sn: Tao
+uid: xut
+userPassword: 231519
+
+
+
+
+dn: cn=developers,ou=it,dc=pb,dc=gtja,dc=com
+objectclass: top
+objectclass: groupOfUniqueNames
+cn: developers
+ou: developer
+uniqueMember: uid=xut,ou=staffs,dc=pb,dc=gtja,dc=com
+
+dn: cn=ms,ou=it,dc=pb,dc=gtja,dc=com
+objectclass: top
+objectclass: groupOfUniqueNames
+cn: ms
+ou: manager
+uniqueMember: uid=xut,ou=staffs,dc=pb,dc=gtja,dc=com
