@@ -3,13 +3,13 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.gtja.pb.soil</groupId>
+	<groupId>com.gtja.pb.comb</groupId>
 	<artifactId>corse-grained-workflow</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
 	<name>corse-grained-workflow</name>
-	<description>Prototype of cors-grained-workflow for soil</description>
+	<description>Prototype of cors-grained-workflow for comb</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -74,21 +74,18 @@
 			    <executions>
 				<execution>
 				    <id>install-npm</id>
-				    <phase>none</phase>
 				    <goals>
 				        <goal>install-node-and-npm</goal>
 				    </goals>
 				</execution>
 				<execution>
 				    <id>npm-install</id>
-				    <phase>none</phase>
 				    <goals>
 					<goal>npm</goal>
 				    </goals>
 				</execution>
 				<execution>
 					<id>npm-build</id>
-					<phase>none</phase>
 					<goals>
 					    <goal>npm</goal>
 					</goals>

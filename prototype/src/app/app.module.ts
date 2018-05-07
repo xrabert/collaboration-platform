@@ -13,7 +13,6 @@ import {
 } from '@angular/common/http';
 
 import { Observable } from 'rxjs/Observable';
-
 @Injectable()
 export class XhrInterceptor implements HttpInterceptor {
 

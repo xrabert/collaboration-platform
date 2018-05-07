@@ -1,0 +1,6 @@
+security:
+  ignored:
+  - "*.bundle.*"
+logging:
+  level:
+    org.springframework.security: DEBUG

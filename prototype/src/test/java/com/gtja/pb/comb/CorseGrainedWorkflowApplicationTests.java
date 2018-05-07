@@ -1,4 +1,4 @@
-package com.gtja.pb.soil;
+package com.gtja.pb.comb;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
