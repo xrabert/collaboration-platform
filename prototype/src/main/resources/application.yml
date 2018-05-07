@@ -1,6 +1,13 @@
-security:
-  ignored:
-  - "*.bundle.*"
 logging:
   level:
     org.springframework.security: DEBUG
+spring:
+  ldap:
+    embedded:
+      ldif: classpath:test-server2.ldif
+      base-dn: dc=pb,dc=gtja,dc=com
+      port: 8389
+camunda:
+  bpm:
+    webapp:
+      index-redirect-enabled: false

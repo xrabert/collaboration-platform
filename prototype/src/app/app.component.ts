@@ -19,5 +19,8 @@ export class AppComponent {
           this.router.navigateByUrl('/login');
       }).subscribe();
     }
+    camunda_mainpage() {
+      this.http.post('app/welcome/default/',{}).finally(()=>{}).subscribe();
+    }
 
 }

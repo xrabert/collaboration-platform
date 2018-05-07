@@ -25,8 +25,15 @@ sn: Tao
 uid: xut
 userPassword: 231519
 
-
-
+dn: uid=huk,ou=staffs,dc=pb,dc=gtja,dc=com
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+cn: Hu Kai
+sn: Kai
+uid: huk
+userPassword: 231519
 
 dn: cn=developers,ou=it,dc=pb,dc=gtja,dc=com
 objectclass: top
@@ -41,3 +48,4 @@ objectclass: groupOfUniqueNames
 cn: ms
 ou: manager
 uniqueMember: uid=xut,ou=staffs,dc=pb,dc=gtja,dc=com
+uniqueMember: uid=huk,ou=staffs,dc=pb,dc=gtja,dc=com
