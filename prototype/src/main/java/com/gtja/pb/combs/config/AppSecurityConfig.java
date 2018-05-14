@@ -1,4 +1,4 @@
-package com.gtja.pb.comb.config;
+package com.gtja.pb.combs.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.security.SecurityProperties;

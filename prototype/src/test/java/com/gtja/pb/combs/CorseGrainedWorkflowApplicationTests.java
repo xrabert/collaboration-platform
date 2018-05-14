@@ -1,4 +1,4 @@
-package com.gtja.pb.comb;
+package com.gtja.pb.combs;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

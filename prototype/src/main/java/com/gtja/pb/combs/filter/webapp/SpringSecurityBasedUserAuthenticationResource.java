@@ -1,4 +1,4 @@
-package com.gtja.pb.comb.filter.webapp;
+package com.gtja.pb.combs.filter.webapp;
 
 import org.camunda.bpm.engine.AuthorizationService;
 import org.camunda.bpm.engine.ProcessEngine;
@@ -56,11 +56,11 @@ public class SpringSecurityBasedUserAuthenticationResource extends UserAuthentic
         processEngine.getIdentityService().clearAuthentication();
 
         // check user's app authorizations
-        
+
        List<String> tenantIds = getTenantsOfUser(processEngine, username);
 
        // check user's app authorizations
-      
+
         AuthorizationService authorizationService = processEngine.getAuthorizationService();
 
         HashSet<String> authorizedApps = new HashSet<String>();

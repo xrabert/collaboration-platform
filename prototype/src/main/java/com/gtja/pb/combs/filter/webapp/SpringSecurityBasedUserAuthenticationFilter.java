@@ -1,4 +1,4 @@
-package com.gtja.pb.comb.filter.webapp;
+package com.gtja.pb.combs.filter.webapp;
 
 import org.camunda.bpm.webapp.impl.security.SecurityActions;
 import org.camunda.bpm.webapp.impl.security.auth.Authentication;

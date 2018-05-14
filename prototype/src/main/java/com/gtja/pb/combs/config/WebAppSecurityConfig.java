@@ -1,6 +1,6 @@
-package com.gtja.pb.comb.config;
+package com.gtja.pb.combs.config;
 
-import com.gtja.pb.comb.filter.webapp.SpringSecurityBasedUserAuthenticationFilter;
+import com.gtja.pb.combs.filter.webapp.SpringSecurityBasedUserAuthenticationFilter;
 import org.springframework.boot.autoconfigure.security.SecurityProperties;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.core.annotation.Order;

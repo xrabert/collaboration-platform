@@ -1,6 +1,6 @@
-package com.gtja.pb.comb.config;
+package com.gtja.pb.combs.config;
 
-import com.gtja.pb.comb.filter.rest.StatelessUserAuthenticationFilter;
+import com.gtja.pb.combs.filter.rest.StatelessUserAuthenticationFilter;
 import org.springframework.boot.autoconfigure.security.SecurityProperties;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.core.annotation.Order;

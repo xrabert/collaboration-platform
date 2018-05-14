@@ -1,4 +1,4 @@
-package com.gtja.pb.comb.config;
+package com.gtja.pb.combs.config;
 
 import java.security.Principal;
 import java.util.HashMap;
@@ -15,7 +15,7 @@ public class AppRequestMapping {
   public Map<String, Object> home() {
     Map<String, Object> model = new HashMap<String, Object>();
     model.put("id", UUID.randomUUID().toString());
-    model.put("content", "Hello comb");
+    model.put("content", "Hello combs");
     return model;
   }
 

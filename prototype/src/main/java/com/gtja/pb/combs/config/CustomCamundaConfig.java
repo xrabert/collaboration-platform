@@ -1,4 +1,4 @@
-package com.gtja.pb.comb.config;
+package com.gtja.pb.combs.config;
 
 import org.camunda.bpm.engine.ProcessEngine;
 import org.camunda.bpm.engine.impl.cfg.ProcessEngineConfigurationImpl;

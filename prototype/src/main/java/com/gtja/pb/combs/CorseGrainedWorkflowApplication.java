@@ -1,4 +1,4 @@
-package com.gtja.pb.comb;
+package com.gtja.pb.combs;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

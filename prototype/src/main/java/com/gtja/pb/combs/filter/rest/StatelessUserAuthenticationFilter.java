@@ -1,4 +1,4 @@
-package com.gtja.pb.comb.filter.rest;
+package com.gtja.pb.combs.filter.rest;
 
 
 import org.camunda.bpm.engine.ProcessEngine;
